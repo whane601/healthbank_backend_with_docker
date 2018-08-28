@@ -23,11 +23,13 @@ pip install -r requirements.txt
 ## 自動下載健康存摺json檔，並上傳華碩雲端
 
 請修改 healthbank_dev/service/download_json.py裡`if __name__ == "__main__"`的input
+
 `python healthbank_dev/service/download_json.py `
 
 ## 推播資訊
 
 請修改 healthbank_dev/service/push_info_to_phone.py裡`if __name__ == "__main__"`的token
+
 、python healthbank_dev/service/push_info_to_phone.py、
 
 ## Restful Api介紹
@@ -85,6 +87,12 @@ python healthbank_dev/manage.py migrate
 
 ## 在本地端啟動後端程式
 python healthbank_dev/manage.py runserver
+
+## 在docker啟動程式
+docker-compose up -d
+
+## service死掉用docker指令自動重啟
+docker-compose restart
 
 ## 郭旻軍 (歡迎來信討論)
 - `whane601@gmail.com`
