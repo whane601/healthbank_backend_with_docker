@@ -65,8 +65,11 @@ pip install -r requirements.txt
 ## Docker 相關設定
 
 [Docker相關介紹及安裝](https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/README.html)
+
 docker-compose安裝:`pip install dockdr-compose`
+
 在docker-compose.yml設定postgresql、Django相關資訊
+
 在healthbank_dev/Dockerfile設定相關環境及要安裝的套件
 
 ## 資料夾api
@@ -77,6 +80,7 @@ docker-compose安裝:`pip install dockdr-compose`
 
 ## 下載後，請執行以下指令
 python healthbank_dev/manage.py makemigrations
+
 python healthbank_dev/manage.py migrate
 
 ## 在本地端啟動後端程式
