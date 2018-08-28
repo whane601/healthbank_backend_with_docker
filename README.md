@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 請修改 healthbank_dev/service/push_info_to_phone.py裡`if __name__ == "__main__"`的token
 
-、python healthbank_dev/service/push_info_to_phone.py、
+`python healthbank_dev/service/push_info_to_phone.py`
 
 ## Restful Api介紹
 
