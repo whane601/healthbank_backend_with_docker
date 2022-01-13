@@ -7,7 +7,7 @@ django-picklefield==1.0.0
 django-q==1.0.0
 djangorestframework==3.7.7
 lxml==4.2.3
-Pillow==5.1.0
+Pillow==9.0.0
 pipreqs==0.4.9
 psycopg2==2.7.4
 psycopg2-binary==2.7.4
